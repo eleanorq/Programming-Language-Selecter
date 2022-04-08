@@ -8,12 +8,13 @@
   <title>Programming Language Selector</title>
 </head>
 <body>
-<p>Need help deciding which programming language to choose? Answer these five questions to find out which is best for you!</p>
-<p>Why are you learning a programming  language?</p>
-<form id="language">
-  <div class="radio">
-    <label>
-      <input type="radio" name="why" value="selectD" checked>
+  <p>Need help deciding which programming language to choose? Answer these five questions to find out which is best for you!</p>
+  <p>Why are you learning a programming  language?</p>
+
+  <form id="question1">
+    <div class="radio">
+      <label>
+        <input type="radio" name="why" value="selectD" checked>
       --Select a Choice--
     </label>
   </div>
@@ -34,9 +35,37 @@
       <input type="radio" name="why" value="willofgods">
       By the will of the gods
     </label>
-
-
-
+  </div>
+  </form>
+  </div>
+<p>How do you learn best?</p>
+<form id="question2">
+    <div class="radio">
+        <input type="radio" name="how" value="selectD" checked>
+      --Select a Choice--
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="how" value="careerchange">
+      Independently
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="how" value="forfun">
+      With others
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="how" value="willofgods">
+      Sleep with book under pillow
+    </label>
+  </div>
+  <button type="submit" class="btn">Find out which Language you should learn!</button>
+  </form>
+  </div>
 
     <div id="ruby">
       <h2>Ruby</h2>
@@ -53,8 +82,6 @@
       <p>Rust, goby blah blah blah</p>
     </div>
 
-
-  </div>
 
 </div>
 </body>

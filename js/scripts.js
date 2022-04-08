@@ -3,7 +3,8 @@ $(document.readyState(function() {
     event.preventDefault();
     const choice = $("#why").val();
 
-    if (choice ===)
+    const why = $("input:radio[name=why]:checked").val();
+    const how = $("input:radio[name=how]:checked").val();
 
 
 
