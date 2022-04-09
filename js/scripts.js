@@ -1,20 +1,21 @@
 $(document).ready(function() {
-  $("#language").submit(function(event) {
+  $("#question1").submit(function(event) {
     event.preventDefault();
-    const choice = $("#question1").val();
+    const choice = $("#why").val();
+    const why = $("input:radio[name=why]:checked").val();
     console.log(choice)
   
-    if (choice === "forfun") {
+    if (choice === "forFun") {
       $("#ruby").show();
       $("#rust").hide();
       $("#python").hide();
       $("#woops").hide();
-    } else if (choice === "Career change") {
+    } else if (choice === "careerChange") {
       $("#rust").show();
       $("#ruby").hide();
       $("#python").hide();
       $("#woops").hide();
-    } else if (choice === "willofgods") {
+    } else if (choice === "willOfGods") {
       $("python").show();
       $("#ruby").hide();
       $("#rust").hide();
