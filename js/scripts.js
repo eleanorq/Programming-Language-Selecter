@@ -15,7 +15,7 @@ $(document).ready(function() {
       $("#python").hide();
       $("#woops").hide();
     } else if (why === "willG") {
-      $("python").show();
+      $("#python").show();
       $("#ruby").hide();
       $("#rust").hide();
       $("#woops").hide();
