@@ -1,22 +1,28 @@
-$(document.readyState(function() {
+$(document).ready(function() {
   $("#language").submit(function(event) {
     event.preventDefault();
-    const choice = $("#why").val();
-
-    const why = $("input:radio[name=why]:checked").val();
-    const how = $("input:radio[name=how]:checked").val();
-
-    if (why = willofgods) {
-      $("#ruby").toggle();
-    } else if (why = careerchange) {
-      $("#rust").toggle()
-    } else if (why = forfun) {
-      $("python").toggle();
+    const choice = $("#question1").val();
+    console.log(choice)
+  
+    if (choice === "forfun") {
+      $("#ruby").show();
+      $("#rust").hide();
+      $("#python").hide();
+      $("#woops").hide();
+    } else if (choice === "Career change") {
+      $("#rust").show();
+      $("#ruby").hide();
+      $("#python").hide();
+      $("#woops").hide();
+    } else if (choice === "willofgods") {
+      $("python").show();
+      $("#ruby").hide();
+      $("#rust").hide();
+      $("#woops").hide();
     } else {
       $("#woops").show();
+      $("#ruby").hide();
+      $("#python").hide();
+      $("#rust").hide();
     }
-  });
-
-
-  })
-}))
+  });})
