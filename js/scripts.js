@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#question1").submit(function(event) {
+  $("#question5").submit(function(event) {
     event.preventDefault();
     const why = $("input:radio[name=why]:checked").val();
     console.log(why)
