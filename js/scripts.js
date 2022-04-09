@@ -1,21 +1,20 @@
 $(document).ready(function() {
   $("#question1").submit(function(event) {
     event.preventDefault();
-    const choice = $("#why").val();
     const why = $("input:radio[name=why]:checked").val();
-    console.log(choice)
+    console.log(why)
   
-    if (choice === "forFun") {
+    if (why === "forFun") {
       $("#ruby").show();
       $("#rust").hide();
       $("#python").hide();
       $("#woops").hide();
-    } else if (choice === "careerChange") {
+    } else if (why === "careerChange") {
       $("#rust").show();
       $("#ruby").hide();
       $("#python").hide();
       $("#woops").hide();
-    } else if (choice === "willOfGods") {
+    } else if (why === "willG") {
       $("python").show();
       $("#ruby").hide();
       $("#rust").hide();
