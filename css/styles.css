@@ -1,4 +1,11 @@
 #ruby, #python, #rust, #woops {
   display: none;
 }
+body {
+  background-color: plum;
+}
+h1 {
+  color: orange;
+}
+
 
