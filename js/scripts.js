@@ -23,4 +23,7 @@ $(document).ready(function() {
       $("#python").hide();
       $("#rust").hide();
     }
-  });})
+$( "button" ).first().click(function() {
+  $( "#quiz" ).first().fadeToggle( "slow", "linear" );
+  });
+})})
