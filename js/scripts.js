@@ -2,8 +2,6 @@ $(document).ready(function() {
   $("#question5").submit(function(event) {
     event.preventDefault();
     const why = $("input:radio[name=why]:checked").val();
-    console.log(why)
-  
     if (why === "forFun") {
       $("#ruby").show();
       $("#rust").hide();

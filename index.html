@@ -7,13 +7,12 @@
   <script src="js/scripts.js"></script>
   <title>Programming Language Selector</title>
 </head>
-<body>
+<body class="shabang">
   <div class="jumbotron">
     <h1>Need help deciding which programming language to choose? Answer these five questions to find out which is best for you!</h1>
   </div> 
-  <div class="container">
-    <div id="first">
-  <h3>Which would you rather battle in hand-to-hand combat?</h3>
+  <div class="container" id="quiz">
+  <h3>Who would you rather battle in hand-to-hand combat?</h3>
     <form id="question1">
       <div class="radio">
         <label>
@@ -40,9 +39,6 @@
         </label>
       </div> 
     </form>
-  </div>
-  <div class="container">
-    <div id="second">
   <h3>How do you sleep?</h3>
     <form id="question2">
       <div class="radio">
@@ -69,10 +65,7 @@
           Standing up
         </label>
       </div>
-    </form>
-  </div> 
-  <div class="container">
-  <div id="third">
+    </form> 
   <h3>If you had to be an animal for one day, which one would you choose?</h3>
     <form id="question3">
       <div class="radio">
@@ -100,9 +93,6 @@
         </label>
       </div> 
     </form>
-  </div>
-  <div class="container">
-    <div id="four">
   <h3>Favorite past-time</h3>
     <form id="question4">
       <div class="radio">
@@ -130,9 +120,6 @@
         </label>
       </div> 
     </form>
-  </div>
-  <div class="container">
-    <div id="fifth">
   <h2>Why are you learning a programming  language?</h2>
     <form id="question5">
       <div class="radio">
@@ -159,10 +146,11 @@
           By the will of the gods
         </label>
       </div>
-      <button type="submit" class="btn">Find out which Language you should learn!</button> 
-    </form>    
-
-<div class="container">
+      <button type="submit" class="btn" id="b">Find out which Language you should learn!</button> 
+    </form>
+  </div>    
+  </body>
+<div class="container" id="answer">
   <div id="jumbotron">
     <div id="ruby">
       <h2>Ruby</h2>
@@ -182,5 +170,6 @@
     </div> 
   </div>
 </div>
-</body>
 </html> 
+
+
