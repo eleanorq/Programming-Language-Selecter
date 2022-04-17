@@ -17,8 +17,17 @@ _{This page contains a quiz with five questions which helps user determine which
 
 ## Setup/Installation Requirements
 
-* _Open url https://github.com/eleanorq/Programming-Language-Selecter.git
-}
+*Open url https://github.com/eleanorq/Programming-Language-Selecter.git
+
+*Select green code button in top right of repository
+
+*Copy the HTTPS link
+
+*Open command line and enter: cd [directory name]
+
+*In command line enter: git clone [copied link]
+
+*In command line enter: code .
 
 
 ## Known Bugs
